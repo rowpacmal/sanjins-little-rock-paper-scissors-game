@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Rock Paper Scissors Game</title>
+    <link
+      rel="stylesheet"
+      href="./style.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <h1>- Rock Paper Scissors -</h1>
+        <button onclick="playGame('rock')">&#9994;</button>
+        <button onclick="playGame('paper')">&#9995;</button>
+        <button onclick="playGame('scissors')">&#9996;</button>
+        <p id="matchText">do you wanna...</p>
+        <h2 id="gameText">Play a Game!</h2>
+        <p class="streak">
+          Your current winning streak is: <span id="winText">0</span>
+        </p>
+        <p class="streak">
+          This is your personal best: <span id="winStreak">0</span>
+        </p>
+        <p>(A streak will reset on a lose!)</p>
+      </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
