@@ -1,0 +1,15 @@
+{
+  "name": "sanjins-little-rock-paper-scissors-game",
+  "version": "1.0.0",
+  "description": "- This is a little game",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.77.1"
+  }
+}
